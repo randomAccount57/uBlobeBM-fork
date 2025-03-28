@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function () {
     script.onerror = function () {
         var script2 = document.createElement('script');
         script2.src = fallback;
-        script2.onerror = function () {
+        /*script2.onerror = function () {
             alert("did not work")
-        };
+        };*/
         document.body.appendChild(script2);
     };
     document.body.appendChild(script);
