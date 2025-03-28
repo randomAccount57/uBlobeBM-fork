@@ -1,5 +1,7 @@
 # Welcome to uBlobeBM (BlobeBM uBlock Edition)!
 
+THIS IS A FORK OF THE ORIGINAL THAT USES A RAW GITHUBUSERCONTENT PROXY
+
 **uBlobeBM** is a tool that can run bookmarklets using **uBlock Origin** by utilizing the **uBlock Run** exploit. It's very useful if bookmarklets don’t work on your device or are blocked by your administrator. uBlobeBM also does some CSP bypassing shenanigans, which allow it to work in a lot of sites (like Blooket) in which regular **uBlock Run** or **uRun** don't.
 
 ---
@@ -14,7 +16,7 @@
      `chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/advanced-settings.html`  
    - Find `userResourcesLocation`.  
    - Change it from `unset` to:  
-     `https://raw.githubusercontent.com/Blobby-Boi/uBlobeBM/refs/heads/main/blob.js`
+     `https://rawgithubusercontent.deno.dev/randomAccount57/uBlobeBM-fork/refs/heads/main/blob.js`
 
 2. **Modifying Custom Filters**  
    - Go to:  
